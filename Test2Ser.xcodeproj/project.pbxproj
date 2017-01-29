@@ -26,7 +26,6 @@
 		082767AD1E3D04BC00D0EA82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082767AC1E3D04BC00D0EA82 /* Foundation.framework */; };
 		082767AF1E3D04C200D0EA82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082767AE1E3D04C200D0EA82 /* CoreGraphics.framework */; };
 		082767B11E3D04CA00D0EA82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082767B01E3D04CA00D0EA82 /* UIKit.framework */; };
-		082767B51E3D051100D0EA82 /* photo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 082767B41E3D051100D0EA82 /* photo2.jpg */; };
 		0838FF1A1DCA073D00249277 /* CustomPinMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0838FF191DCA073D00249277 /* CustomPinMapView.m */; };
 		083A289D1DD487B80026C769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 083A289B1DD487B80026C769 /* Main.storyboard */; };
 		083A28A01DD4C6D70026C769 /* DetailUserFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 083A289F1DD4C6D70026C769 /* DetailUserFormViewController.m */; };
@@ -40,6 +39,7 @@
 		088AD47D1DAB81E700D0073D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088AD47B1DAB81E700D0073D /* LaunchScreen.storyboard */; };
 		089269581DCB9FA3005311B6 /* JsonObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 089269571DCB9FA3005311B6 /* JsonObjects.m */; };
 		08B0F2D91E09C96F005C7D79 /* SettingsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B0F2D81E09C96F005C7D79 /* SettingsDetailViewController.m */; };
+		08B3FFF51E3E4B40002DDDB5 /* photo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08B3FFF41E3E4B3F002DDDB5 /* photo2.jpg */; };
 		08D063B61DC0D57400B57E32 /* mapKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D063B51DC0D57400B57E32 /* mapKitViewController.m */; };
 		08D43FFD1DBA05770010A49D /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D43FFC1DBA05770010A49D /* ListViewController.m */; };
 		08DDBFB81DD47A7B00612E13 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DDBF961DD47A7B00612E13 /* IQNSArray+Sort.m */; };
@@ -98,7 +98,6 @@
 		082767AE1E3D04C200D0EA82 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		082767B01E3D04CA00D0EA82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		082767B21E3D04D200D0EA82 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		082767B41E3D051100D0EA82 /* photo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo2.jpg; path = ../../../photo2.jpg; sourceTree = "<group>"; };
 		0838FF151DC9FABF00249277 /* Test2Ser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Test2Ser.entitlements; sourceTree = "<group>"; };
 		0838FF181DCA073D00249277 /* CustomPinMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomPinMapView.h; path = ../CustomPinMapView.h; sourceTree = "<group>"; };
 		0838FF191DCA073D00249277 /* CustomPinMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomPinMapView.m; path = ../CustomPinMapView.m; sourceTree = "<group>"; };
@@ -123,6 +122,7 @@
 		089269571DCB9FA3005311B6 /* JsonObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JsonObjects.m; path = ../JsonObjects.m; sourceTree = "<group>"; };
 		08B0F2D71E09C96F005C7D79 /* SettingsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsDetailViewController.h; sourceTree = "<group>"; };
 		08B0F2D81E09C96F005C7D79 /* SettingsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsDetailViewController.m; sourceTree = "<group>"; };
+		08B3FFF41E3E4B3F002DDDB5 /* photo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo2.jpg; sourceTree = "<group>"; };
 		08D063B41DC0D57400B57E32 /* mapKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapKitViewController.h; sourceTree = "<group>"; };
 		08D063B51DC0D57400B57E32 /* mapKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapKitViewController.m; sourceTree = "<group>"; };
 		08D43FFB1DBA05770010A49D /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
@@ -262,7 +262,7 @@
 				088AD4701DAB81E700D0073D /* AppDelegate.h */,
 				088AD4711DAB81E700D0073D /* AppDelegate.m */,
 				088AD4731DAB81E700D0073D /* ViewController.h */,
-				082767B41E3D051100D0EA82 /* photo2.jpg */,
+				08B3FFF41E3E4B3F002DDDB5 /* photo2.jpg */,
 				088AD4741DAB81E700D0073D /* ViewController.m */,
 				083A289B1DD487B80026C769 /* Main.storyboard */,
 				082767981E3D04AE00D0EA82 /* Source */,
@@ -450,7 +450,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				082767B51E3D051100D0EA82 /* photo2.jpg in Resources */,
+				08B3FFF51E3E4B40002DDDB5 /* photo2.jpg in Resources */,
 				088AD47D1DAB81E700D0073D /* LaunchScreen.storyboard in Resources */,
 				088AD47A1DAB81E700D0073D /* Assets.xcassets in Resources */,
 				08DDBFC61DD47A7B00612E13 /* IQKeyboardManager.bundle in Resources */,
