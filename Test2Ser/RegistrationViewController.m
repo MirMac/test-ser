@@ -182,7 +182,7 @@
     [self saveDataText:_inputNomeTitolare forKey:@"0000"];
     //    [self saveDataText:_inputTextNomePalestra forKey:@"0001"];
     //    [self saveDataText:_inputTextEmail forKey:@"0002"];
-    
+//    ciao
     NSLog(@"HAI PREMUTO REGISTRATI");
     
 }
