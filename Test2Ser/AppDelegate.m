@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  Test2Ser
 //
-//  Created by Mircea Macovei on 10/10/2016.
+//  Created by Mircea Macovei on 10/12/2016.
 //  Copyright © 2016 Mircea Macovei. All rights reserved.
 //
 
@@ -16,7 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self loadKeyboardManager];
     return YES;
 }
 
@@ -47,5 +47,17 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark KEYBOARD
+
+- (void)loadKeyboardManager
+{
+    [[IQKeyboardManager sharedManager] setEnable:YES];
+//    [[IQKeyboardManager sharedManager] setCanAdjustTextView:YES];
+    [[IQKeyboardManager sharedManager] setEnableAutoToolbar:YES];
+    [[IQKeyboardManager sharedManager] setShouldPlayInputClicks:YES];
+    [[IQKeyboardManager sharedManager] setShouldResignOnTouchOutside:YES];
+    [[IQKeyboardManager sharedManager] setShouldShowTextFieldPlaceholder:NO];
+    [[IQKeyboardManager sharedManager] setShouldToolbarUsesTextFieldTintColor:NO];
+}
 
 @end
