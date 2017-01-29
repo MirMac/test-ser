@@ -24,7 +24,7 @@
 }
 
 -(void)mergeTest{
-    
+//    riga Mircea
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
